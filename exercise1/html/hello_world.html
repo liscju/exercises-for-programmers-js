@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" href="../css/hello_world.css">
+    <script src="../js/greetings.js"></script>
+</head>
+<body>
+    <div id="header-div">
+    </div>
+    <div id="main-div">
+        <div id="main-left-div"></div>
+        <div id="main-center-div">
+            <div id="input-div">
+                <input type="text" id="user-name-text"
+                       placeholder="What is your name?"/>
+                <button type="button" id="show-greeting-button"
+                        onclick="show_greeting()">Go</button>
+            </div>
+            <div id="output-div">
+                <textarea id="greeting-textarea" contenteditable="false" >
+                </textarea>
+            </div>
+        </div>
+        <div id="main-right-div"></div>
+    </div>
+    <div id="footer-div">
+    </div>
+</body>
+</html>
